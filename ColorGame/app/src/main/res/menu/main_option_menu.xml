@@ -1,0 +1,21 @@
+<menu   xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.lucho.colorgame.MainActivity">
+    <item
+        android:id="@+id/about"
+        android:title="About"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/help"
+        android:title="Help"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/other"
+        android:title="Other"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+
+</menu>
