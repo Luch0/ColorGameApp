@@ -5,6 +5,8 @@ color. The buttons and background colors will update after each try in a random 
 
 This is an app I started to work on at the same time I started learning Android development. One of the things about Android is that there are many different devices to chose from; different manufacturers and different sizes, in both body and screen size. This app has helped me understand how to deal with this obstacle.
 
-This app is a good example on using LinearLayouts which helps organize the views in the device screen according to their size. Without the use of LinearLayout, buttons, textviews and other views would not look good on the screen or maybe even not appear in the screen at all. In this app I use buttons as the input for the game so I utilized LinearLayouts to make sure the buttons would be on the right place and right size according to the screen.
+This app is a good example on using LinearLayouts which help organize the views in the device screen according to their size. Without the use of LinearLayout, buttons, textviews and other views would not look good on the screen or maybe even not appear correctly on the screen. In this app I use buttons as the input for the game so I utilized LinearLayouts to make sure the buttons would be on the right place and right size according to the device's screen.
 
-This application also uses a timer 
+This application also uses a timer. In order to make the game challenging, I included a timer for how many seconds the user will have to play the game. In my first implementation I just added a timer but I tought about how the player can abuse the game by just pressing random buttons fast and hoping to get a high score like this. The way I fixed this problem was to add a penalty of 1 second if the user chooses the wrong button and rewarding the player if it presses the right one. This way the user will have to play the game correctly and not cheat.
+
+
